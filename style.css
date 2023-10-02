@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime:wght@700&display=swap');
+body
+{
+    background-color: rgb(185, 190, 255);
+    font-family: 'Courier Prime', monospace;
+}
+.stopwatch
+{
+    width: 90%;
+    max-width: 600px;
+    max-height: 200px;
+    background-image: linear-gradient(rgba(19, 48, 112, 0.8),rgba(13, 21, 88, 0.8)), url(background2.jpg);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 70px 10px;
+    color: #fff;
+    margin: 130px auto 0;
+    box-shadow: 0 10px 10px rgba(38, 0, 255, 0.247);
+    
+}
+.stopwatch h1 
+{
+   font-size: 60px;
+   font-weight: 100;
+   font-style: italic;
+}
+.buttons 
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+.buttons img
+{
+    width: 70px;
+    cursor: pointer;
+    transition: all 220ms;
+}
+.buttons img:hover
+{
+transform: scale(1.05);
+}
